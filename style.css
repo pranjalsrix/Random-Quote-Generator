@@ -1,0 +1,57 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: grid;
+  min-block-size: 100dvh;
+  justify-content: center;
+}
+.quote-card{
+  display: grid;
+  inline-size: min(80rem, 90vw);
+  margin-block-start: 10vh;
+  gap: clamp(0.2rem, 1vw, 1rem);
+}
+h1{
+  text-align: center;
+  font-size: min(5rem, 5vw);
+}
+.display{
+  display: grid;
+  border: 1px solid black;
+  gap: 1vw;
+  padding: 1vw;
+  font-size: clamp(0.8rem, 1vw, 3rem);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.author{
+  text-align: right;
+}
+.quote{
+  font-weight: bold;
+  font-style: italic;
+}
+.quote-btn{
+  padding: min(1vw, 1rem);
+  font-size: clamp(0.8rem, 1vw, 2rem)
+}
+.quote::before, .quote::after{
+  content: '"';
+}
+.author::before{
+  content: '-';
+}
+.quote-btn:hover{
+  background: darkgray;
+  color: black;
+}
+.quote-btn:active{
+  background: black;
+  color: white;
+}
+.fade{
+  opacity: 0.1;
+}
