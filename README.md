@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-A dynamic random quote generator built with HTML, CSS, and Vanilla JavaScript.
+A dynamic random quote generator built with HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -33,5 +33,5 @@ A dynamic random quote generator built with HTML, CSS, and Vanilla JavaScript.
 
 ## Purpose
 
-This project focuses on building a more interactive user interface with Vanilla JavaScript while practicing structured data, random quote generation, duplicate prevention, animation timing, and separation of application logic from UI presentation.
+This project focuses on building a more interactive user interface with JavaScript while practicing structured data, random quote generation, duplicate prevention, animation timing, and separation of application logic from UI presentation.
 
